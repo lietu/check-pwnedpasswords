@@ -1,5 +1,7 @@
 # Check Pwned Passwords
 
+![Build status](https://travis-ci.org/lietu/check-pwnedpasswords.svg?branch=master)
+
 Simple tool to check if any of your passwords in your password database
 are known by the [Pwned Passwords](https://haveibeenpwned.com/Passwords)
 API.

@@ -35,7 +35,7 @@ class DashlaneJsonReader(object):
         self._index = 0
         return self
 
-    def next(self):
+    def __next__(self):
         try:
             item = self._items[self._index]
         except IndexError:
@@ -51,6 +51,9 @@ class DashlaneJsonReader(object):
             name=name,
             password=item["password"]
         )
+
+    def next(self):
+        return self.__next__()
 
 
 def process_entries(reader):

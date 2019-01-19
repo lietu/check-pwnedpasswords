@@ -1,0 +1,22 @@
+{
+  "AUTHENTIFIANT": [
+    {
+      "domain": "example.com",
+      "email": "user@example.com",
+      "login": "",
+      "note": "",
+      "password": "p455w0rd",
+      "secondaryLogin": "",
+      "title": "example login"
+    },
+    {
+      "domain": "example.com",
+      "email": "",
+      "login": "example",
+      "note": "",
+      "password": "g00dp455",
+      "secondaryLogin": "",
+      "title": "second example"
+    }
+  ]
+}
